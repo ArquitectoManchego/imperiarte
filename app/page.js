@@ -185,14 +185,9 @@ export default function HomePage() {
           ) : (
             <Eye size={18} color="#10b981" />
           )}
-          <div style={{ display: "flex", flexDirection: "column", textAlign: "left" }}>
-            <span style={{ fontSize: "0.82rem", fontWeight: 700, color: viewMode === "vendedor" ? "#e5b869" : "#10b981" }}>
-              {viewMode === "vendedor" ? "Modo Vendedor (Costos + Márgenes)" : "Modo Cliente (Precios de Lista)"}
-            </span>
-            <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>
-              {viewMode === "vendedor" ? "Muestra precio lista, costo y margen" : "Apto para mostrar pantalla a clientes"}
-            </span>
-          </div>
+          <span style={{ fontSize: "0.88rem", fontWeight: 700, color: viewMode === "vendedor" ? "#e5b869" : "#10b981" }}>
+            {viewMode === "vendedor" ? "Modo Vendedor" : "Modo Cliente"}
+          </span>
           <div className={`switch-track ${viewMode === "vendedor" ? "active" : ""}`}>
             <div className="switch-thumb" />
           </div>

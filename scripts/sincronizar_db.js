@@ -22,7 +22,7 @@ function syncDataToApp() {
       gramaje: p.gramaje || "Medida estándar",
       costo: p.costo,
       precio: p.precio_tienda,
-      stock: p.stock || 100,
+      stock: p.stock || 0,
       descripcion: p.descripcion || "",
       media_url: p.media_url || "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=800&auto=format&fit=crop",
       video_url: p.video_url || "",
@@ -33,7 +33,7 @@ function syncDataToApp() {
           sku: p.sku, 
           costo: p.costo, 
           precio: p.precio_tienda, 
-          stock: p.stock || 100 
+          stock: p.stock || 0 
         }
       ]
     }));

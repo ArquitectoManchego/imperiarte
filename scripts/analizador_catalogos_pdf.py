@@ -138,7 +138,7 @@ def parse_all_pdf_catalogs():
             "costo": base_cost,
             "margen_porcentaje": DEFAULT_MARGIN,
             "precio_tienda": precio_tienda,
-            "stock": 150,
+            "stock": 0,
             "descripcion": f"Catálogo oficial {brand} ({year_str}). Documento fuente: {rel_path} ({page_count} págs). Ideal para bellas artes, papelería fina y talleres.",
             "archivo_fuente": rel_path,
             "media_url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=800&auto=format&fit=crop",

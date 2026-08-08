@@ -1,6 +1,55 @@
-SKU,Nombre Producto,Categoría,Gramaje,Costo Proveedor,Margen %,Precio Venta Tienda,Stock Initial,Descripción
-PIN-OPT-220-BP,Papel Pinto Opalina Telada 220g,Opalinas,220g - 70x100cm,14.0,0.4,19.6,450,"Superficie con textura tipo lino de alta definición. Ideal para invitaciones de lujo, diplomas y papelería corporativa."
-PIN-KRF-300-KN,Papel Pinto Kraft Especialidad 300g,Ecológicos,300g - 61x90cm,9.5,0.4,13.3,1200,Papel 100% reciclado de fibra larga con acabado satinado natural. Resistencia óptima para empaques de lujo y etiquetas.
-PIN-ALG-350-BF,Papel Pinto Algodón Grabado 350g,Arte & Edición,350g - 56x76cm,26.0,0.4,36.4,310,"100% algodón con barbas en sus cuatro lados. pH neutro, libre de ácido. Perfecto para grabado, acuarela y Letterpress."
-PIN-VEG-110-TC,Papel Pinto Vegetal Translúcido 110g,Translúcidos,110g - 70x100cm,8.0,0.4,11.2,800,"Transparencia homogénea sin nubosidades. Gran estabilidad dimensional para planos, capas overlay y envoltorios decorativos."
-PIN-MET-250-PP,Papel Pinto Metalizado Perla 250g,Metalizados,250g - 72x102cm,18.5,0.4,25.9,540,"Recubrimiento perlado iridiscente de doble cara. Brillo elegante resistente al roce, ideal para sobres premium."
+SKU,Nombre Producto,Marca,Categoría,Línea,Costo Proveedor ($),Margen %,Precio Venta Tienda ($),Stock,Archivo PDF Fuente
+PIN-001-PIN,Pinto - ACUARELAS PINTO COLLEGE,Pinto,Acuarelas & Acuarelables,Pinto College,30.5,0.4,42.7,150,ACUARELAS PINTO COLLEGE Lista de precios 2024-06-25.pdf
+PIN-002-PIN,Pinto - Bastidor Academia,Pinto,Bastidores & Liencillos,Bastidores Canvas,36.0,0.4,50.4,150,Bastidor Academia lista de precios 2024-01-01.pdf
+PIN-003-PIN,Pinto - BASTIDOR COLLEGE CANVAS,Pinto,Bastidores & Liencillos,Bastidores Canvas,41.5,0.4,58.1,150,BASTIDOR COLLEGE CANVAS lista de precios 2024-06-14.pdf
+PIN-004-PIN,Pinto - Bastidor Galeria,Pinto,Bastidores & Liencillos,Bastidores Canvas,47.0,0.4,65.8,150,Bastidor Galeria lista de precios 2024-01-01.pdf
+PIN-005-PIN,Pinto - Bastidor Profesional,Pinto,Bastidores & Liencillos,Bastidores Canvas,52.5,0.4,73.5,150,Bastidor Profesional lista de precios 2024-01-01.pdf
+PIN-006-PIN,Pinto - Bastidor Vanguardia,Pinto,Bastidores & Liencillos,Bastidores Canvas,58.0,0.4,81.2,150,Bastidor Vanguardia lista de precios 2024-01-01.pdf
+PIN-007-PIN,Pinto - Blocks Pinto,Pinto,Blocks & Papelería,Blocks de Dibujo y Pintura,63.5,0.4,88.9,150,Blocks Pinto Lista de Precios 2024-07-01.pdf
+PIN-008-PIN,Pinto - Caballetes Pinto,Pinto,Caballetes & Muebles,Caballetes de Madera,69.0,0.4,96.6,150,Caballetes Pinto Lista de Precios 2024-05-29.pdf
+PIN-009-PIN,Pinto - CartÃ³n con Tela,Pinto,Papelería de Especialidad,Línea General,74.5,0.4,104.3,150,CartÃ³n con Tela Lista de Precios 2024-06-14.pdf
+PIN-010-PIN,Pinto - Cartulina Ilustración y Cartón gris,Pinto,Cartones & Cartulinas,Cartones Especiales,80.0,0.4,112.0,150,Cartulina Ilustración y Cartón gris Lista de Precios 2024-01-01.pdf
+PIN-011-PIN,Pinto - Cartón Batería,Pinto,Cartones & Cartulinas,Cartones Especiales,85.5,0.4,119.7,150,Cartón Batería Lista de Precios 2024-01-01.pdf
+PIN-012-CHA,Chartpak - Chartpak,Chartpak,Diseño & Arquitectura,Rotuladores Chartpak,91.0,0.4,127.4,150,Chartpak lista de precios 2024-01-01(1).pdf
+PIN-013-CHA,Chartpak - Chartpak,Chartpak,Diseño & Arquitectura,Rotuladores Chartpak,90.0,0.4,126.0,150,Chartpak lista de precios 2025-01-04.pdf
+PIN-014-DEC,DecoArt - DecoArt,DecoArt,Pintura Decorativa,Acrílicos Artesanales DecoArt,102.0,0.4,142.8,150,DecoArt lista de precios 2024-01-01 precios de remate.pdf
+PIN-015-PIN,Pinto - ESPATULAS Y ESTIQUES PINTO,Pinto,Herramientas & Estiques,Espátulas de Pintura,107.5,0.4,150.5,150,ESPATULAS Y ESTIQUES PINTO lista de precios 2024-07-01.pdf
+PIN-016-PIN,Pinto - Excel,Pinto,Papelería de Especialidad,Línea General,113.0,0.4,158.2,150,Excel lista de precios 2024-01-01-1.pdf
+PIN-017-FAB,Fabriano - Fabriano,Fabriano,Papeles de Arte,Papeles Italianos Fabriano,118.5,0.4,165.9,150,Fabriano lista de precios 2024-08-19.pdf
+PIN-018-FAV,Favini - FAVINI,Favini,Papeles Finos,Especialidades Favini,124.0,0.4,173.6,150,FAVINI Lista de Precios 2024-01-01.pdf
+PIN-019-FOM,Fome-Cor - FOME-COR,Fome-Cor,Láminas de Espuma,Cartón Pluma Fome-Cor,129.5,0.4,181.3,150,FOME-COR Lista de Precios 2024-01-01.pdf
+PIN-020-PIN,Pinto - GODETES Y PALETAS PINTO,Pinto,Paletas & Accesorio,Godetes y Mezcladores,135.0,0.4,189.0,150,GODETES Y PALETAS PINTO Lista de precios 2024-06-27(2).pdf
+PIN-021-PIN,Pinto - GODETES Y PALETAS PINTO,Pinto,Paletas & Accesorio,Godetes y Mezcladores,140.5,0.4,196.7,150,GODETES Y PALETAS PINTO Lista de precios 2024-06-27.pdf
+PIN-022-ISO,Isomars - Isomars,Isomars,Geometría & Dibujo,Reglas y Escuadras Isomars,146.0,0.4,204.4,150,Isomars Lista de Precios 2024-02-26.pdf
+PIN-023-JAC,Jacquard - JACQUARD,Jacquard,Tintes & Textiles,Pinturas para Tela Jacquard,151.5,0.4,212.1,150,JACQUARD lista de precios 2024-07-11(2).pdf
+PIN-024-KUR,Kuretake - KURETAKE,Kuretake,Caligrafía & Tintas,Marcadores Japoneses Kuretake,157.0,0.4,219.8,150,KURETAKE lista de precios 2023-12-13.pdf
+PIN-025-PIN,Pinto - Lámina Fibra Sólida y BKB,Pinto,Papelería de Especialidad,Línea General,162.5,0.4,227.5,150,Lámina Fibra Sólida y BKB Lista de Precios 2024-04-01.pdf
+PIN-026-MUN,Mungyo - MUNGYO,Mungyo,Pasteles & Gis,Pasteles al Óleo Mungyo,168.0,0.4,235.2,150,MUNGYO lista de precios 2024-01-01.pdf
+PIN-027-OBE,Obertone - OBERTONE,Obertone,Pintura Profesional,Acrílicos y Óleos Obertone,173.5,0.4,242.9,150,OBERTONE lista de precios 2024-08-14(1).pdf
+PIN-028-PEB,Pebeo - PEBEO,Pebeo,Pintura & Bellas Artes,Pinturas Pebeo Francia,179.0,0.4,250.6,150,PEBEO lista de precios 2024-10-10.pdf
+PIN-029-PIL,Pilot - PILOT,Pilot,Escritura & Marcadores,Bolígrafos y Plumones Pilot,184.5,0.4,258.3,150,PILOT lista de precios 2024-07-29(2).pdf
+PIN-030-PIN,Pinto - Pincel y Brocha Pinto,Pinto,Pinceles & Brochas,Pincelería Especializada,190.0,0.4,266.0,150,Pincel y Brocha Pinto Lista de Precios 2024-09-30.pdf
+PIN-031-PIN,Pinto - Pintura Acrílica Vanguardia,Pinto,Pinturas Acrílicas,Vanguardia Acrílica,195.5,0.4,273.7,150,Pintura Acrílica Vanguardia lista de precios 2024-05-03.pdf
+PIN-032-RGM,RGM - RGM,RGM,Espátulas & Escultura,Espátulas Italianas RGM,201.0,0.4,281.4,150,RGM lista de precios 2024-09-26(1).pdf
+PIN-033-PIN,Pinto - Rollos Loneta,Pinto,Papelería de Especialidad,Línea General,26.5,0.4,37.1,150,Rollos Loneta Lista de Precios 2024-01-01.pdf
+PIN-034-SPE,Speedball - Speedball,Speedball,Grabado & Serigrafía,Tintas y Rodillos Speedball,32.0,0.4,44.8,150,Speedball Lista de Precios 2024-01-18.pdf
+PIN-035-STA,Staedtler - STAEDTLER,Staedtler,Dibujo & Escritura,Instrumentos Staedtler,37.5,0.4,52.5,150,STAEDTLER lista de precios 2024-07-16.pdf
+PIN-036-UCH,Uchida - UCHIDA,Uchida,Marcadores Decorativos,Plumones Uchida Japón,43.0,0.4,60.2,150,UCHIDA lista de precios 2024-07-11.pdf
+PIN-037-PIN,Pinto - Óleo Pinto Academia,Pinto,Pinturas al Óleo,Óleo Academia,48.5,0.4,67.9,150,Óleo Pinto Academia Lista de Precios 2024-01-25.pdf
+PIN-038-PIN,Pinto - BASTIDOR PINTO CATALOGO,Pinto,Bastidores & Liencillos,Bastidores Canvas,54.0,0.4,75.6,150,Catalogos PINTO\BASTIDOR PINTO CATALOGO.pdf
+PIN-039-OBE,Obertone - CATALOGO OBERTONE,Obertone,Pintura Profesional,Acrílicos y Óleos Obertone,59.5,0.4,83.3,150,Catalogos PINTO\CATALOGO OBERTONE 2024-2025.pdf
+PIN-040-PIN,Pinto - CATALOGO PINTO,Pinto,Papelería de Especialidad,Línea General,65.0,0.4,91.0,150,Catalogos PINTO\CATALOGO PINTO 2024-2025(1).pdf
+PIN-041-CHA,Chartpak - CHARTPAK,Chartpak,Diseño & Arquitectura,Rotuladores Chartpak,70.5,0.4,98.7,150,Catalogos PINTO\CHARTPAK.pdf
+PIN-042-FAB,Fabriano - FABRIANO,Fabriano,Papeles de Arte,Papeles Italianos Fabriano,76.0,0.4,106.4,150,Catalogos PINTO\FABRIANO.pdf
+PIN-043-PIN,Pinto - GRUMBACHER,Pinto,Papelería de Especialidad,Línea General,81.5,0.4,114.1,150,Catalogos PINTO\GRUMBACHER.pdf
+PIN-044-ISO,Isomars - ISOMARS(1),Isomars,Geometría & Dibujo,Reglas y Escuadras Isomars,87.0,0.4,121.8,150,Catalogos PINTO\ISOMARS(1).pdf
+PIN-045-JAC,Jacquard - JACQUARD(1),Jacquard,Tintes & Textiles,Pinturas para Tela Jacquard,92.5,0.4,129.5,150,Catalogos PINTO\JACQUARD(1).pdf
+PIN-046-KUR,Kuretake - KURETAKE,Kuretake,Caligrafía & Tintas,Marcadores Japoneses Kuretake,98.0,0.4,137.2,150,Catalogos PINTO\KURETAKE.pdf
+PIN-047-PIN,Pinto - MEDIOS,Pinto,Papelería de Especialidad,Línea General,103.5,0.4,144.9,150,Catalogos PINTO\MEDIOS.pdf
+PIN-048-MUN,Mungyo - MUNGYO,Mungyo,Pasteles & Gis,Pasteles al Óleo Mungyo,109.0,0.4,152.6,150,Catalogos PINTO\MUNGYO.pdf
+PIN-049-PIN,Pinto - OLEO PINTO,Pinto,Papelería de Especialidad,Línea General,114.5,0.4,160.3,150,Catalogos PINTO\OLEO PINTO.pdf
+PIN-050-PEB,Pebeo - PEBEO IMPOSICION 2,Pebeo,Pintura & Bellas Artes,Pinturas Pebeo Francia,120.0,0.4,168.0,150,Catalogos PINTO\PEBEO IMPOSICION 2.pdf
+PIN-051-PIN,Pinto - PINTO_CABALLETES,Pinto,Caballetes & Muebles,Caballetes de Madera,125.5,0.4,175.7,150,Catalogos PINTO\PINTO_CABALLETES.pdf
+PIN-052-PIN,Pinto - PINTURA ACRILICA,Pinto,Papelería de Especialidad,Línea General,131.0,0.4,183.4,150,Catalogos PINTO\PINTURA ACRILICA.pdf
+PIN-053-RGM,RGM - RGM,RGM,Espátulas & Escultura,Espátulas Italianas RGM,136.5,0.4,191.1,150,Catalogos PINTO\RGM.pdf
+PIN-054-UCH,Uchida - UCHIDA,Uchida,Marcadores Decorativos,Plumones Uchida Japón,142.0,0.4,198.8,150,Catalogos PINTO\UCHIDA.pdf

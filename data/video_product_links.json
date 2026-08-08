@@ -1,0 +1,70 @@
+{
+  "cuenta": "@pintodistribuidora",
+  "total_reels_procesados": 5,
+  "reels": [
+    {
+      "post_id": "C_acuarela_college",
+      "url": "https://www.instagram.com/reel/C_acuarela_college/",
+      "caption": "Poniendo a prueba las Acuarelas Pinto College 🎨✨ 12 tonos de alta pigmentación en papel Fabriano. ¡Ideales para ilustraciones y acuarelistas principiantes! #AcuarelaPinto #Fabriano #PintoDistribuidora #ArteMexico",
+      "tags": [
+        "acuarela",
+        "college",
+        "fabriano",
+        "pinto",
+        "pigmento"
+      ],
+      "producto_sugerido_sku": "PIN-001-PIN"
+    },
+    {
+      "post_id": "C_bastidor_galeria",
+      "url": "https://www.instagram.com/reel/C_bastidor_galeria/",
+      "caption": "Preparación de lienzo en Bastidor Galería Pinto 🖼️ Madera de pino estufada de 3.5cm de grosor con doble capa de gesso profesional. #BastidorPinto #BastidorGaleria #ArteProfesional #Lienzo",
+      "tags": [
+        "bastidor",
+        "galeria",
+        "lienzo",
+        "gesso",
+        "pino"
+      ],
+      "producto_sugerido_sku": "PIN-004-PIN"
+    },
+    {
+      "post_id": "C_espatulas_rgm",
+      "url": "https://www.instagram.com/reel/C_espatulas_rgm/",
+      "caption": "Técnica de impasto con Espátulas Italianas RGM y Óleo Pinto Academia 🖌️ Acero inoxidable ultra flexible para texturas únicas. #EspatulasRGM #OleoPinto #Impasto #Pinto",
+      "tags": [
+        "espatula",
+        "rgm",
+        "oleo",
+        "impasto",
+        "estique"
+      ],
+      "producto_sugerido_sku": "PIN-015-PIN"
+    },
+    {
+      "post_id": "C_pinceles_chungking",
+      "url": "https://www.instagram.com/reel/C_pinceles_chungking/",
+      "caption": "Conoce la serie de Pinceles Pinto P300 y P3150-S 🖌️ Cerda natural Chungking con memoria de punta. Perfectos para acrílico y óleo. #PincelesPinto #CerdaChungking #P300 #P3150",
+      "tags": [
+        "pincel",
+        "p300",
+        "p3150",
+        "chungking",
+        "brocha"
+      ],
+      "producto_sugerido_sku": "PIN-030-PIN"
+    },
+    {
+      "post_id": "C_caballetes_madera",
+      "url": "https://www.instagram.com/reel/C_caballetes_madera/",
+      "caption": "Montaje de estudio con Caballete de Madera Pinto 🪵 Ajuste de altura e inclinación para lienzos de gran formato. #CaballetePinto #EstudioDeArte #Pinto",
+      "tags": [
+        "caballete",
+        "madera",
+        "estudio",
+        "pinto"
+      ],
+      "producto_sugerido_sku": "PIN-008-PIN"
+    }
+  ]
+}

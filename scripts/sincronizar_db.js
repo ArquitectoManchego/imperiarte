@@ -14,9 +14,36 @@ function getDownloadedImages() {
     .map(file => `/images/pinto_official/${file}`);
 }
 
+function assignCategory(nombre, marca, catOriginal) {
+  const n = (nombre + " " + marca + " " + catOriginal).toLowerCase();
+  
+  if (n.includes("opalina") || n.includes("batería") || n.includes("bateria") || n.includes("ilustración") || n.includes("ilustracion") || n.includes("staedtler") || n.includes("isomars")) {
+    return "Opalinas";
+  }
+  if (n.includes("favini") || n.includes("ecológi") || n.includes("ecologi") || n.includes("gris") || n.includes("fibra sólida") || n.includes("bkb")) {
+    return "Ecológicos";
+  }
+  if (n.includes("fabriano") || n.includes("block") || n.includes("algodón") || n.includes("algodon") || n.includes("speedball") || n.includes("rgm")) {
+    return "Arte & Edición";
+  }
+  if (n.includes("vegetal") || n.includes("transp") || n.includes("translúci") || n.includes("transluci") || n.includes("fome-cor") || n.includes("chartpak")) {
+    return "Translúcidos";
+  }
+  if (n.includes("metaliz") || n.includes("decoart") || n.includes("kuretake") || n.includes("jacquard") || n.includes("iridiscente") || n.includes("oro") || n.includes("plata")) {
+    return "Metalizados";
+  }
+  if (n.includes("bastidor") || n.includes("lienzo") || n.includes("loneta") || n.includes("caballete")) {
+    return "Bastidores & Liencillos";
+  }
+  if (n.includes("pincel") || n.includes("brocha") || n.includes("espátula") || n.includes("espatula") || n.includes("godete") || n.includes("paleta")) {
+    return "Pinceles & Herramientas";
+  }
+  return "Pinturas & Medios";
+}
+
 function sincronizarTodo() {
   console.log("============================================================");
-  console.log("  SINCRONIZADOR UNIFICADO: PDF + WEB PINTO + INSTAGRAM REELS");
+  console.log("  SINCRONIZADOR UNIFICADO: CATEGORIZACIÓN & EXCEL 40% MARGEN");
   console.log("============================================================");
 
   let pdfProducts = [];
@@ -40,11 +67,11 @@ function sincronizarTodo() {
   console.log(`[INFO] Se encontraron ${pdfProducts.length} productos PDF, ${Object.keys(webData).length} páginas web y ${downloadedImages.length} imágenes HD.`);
 
   const productosSincronizados = pdfProducts.map((p, idx) => {
+    const pNameLower = p.nombre.toLowerCase();
+    const finalCategory = assignCategory(p.nombre, p.marca, p.categoria);
+
     // Buscar imagen HD correspondiente
     let realMediaUrl = "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=800&auto=format&fit=crop";
-    
-    // Intentar emparejar imagen HD de pinto_official por coincidencia de nombre
-    const pNameLower = p.nombre.toLowerCase();
     const matchedImg = downloadedImages.find(img => {
       const imgLower = img.toLowerCase();
       if (pNameLower.includes("acuarela") && imgLower.includes("acuarela")) return true;
@@ -64,7 +91,7 @@ function sincronizarTodo() {
       realMediaUrl = downloadedImages[idx % downloadedImages.length];
     }
 
-    // Buscar video de Instagram de la cuenta @pintodistribuidora
+    // Buscar video de Instagram
     let videoUrl = "https://www.instagram.com/pintodistribuidora/";
     const matchedVideo = videoLinks.find(v => {
       if (v.producto_sugerido_sku === p.sku) return true;
@@ -91,12 +118,12 @@ function sincronizarTodo() {
       nombre: p.nombre,
       sku: p.sku,
       marca: p.marca,
-      categoria: p.categoria,
+      categoria: finalCategory,
       linea: p.linea,
       gramaje: p.gramaje || "Especificación oficial según catálogo",
       costo: p.costo,
       precio: p.precio_tienda,
-      stock: 0, // Stock inicial 0 pliegos/piezas
+      stock: 0,
       descripcion: enrichedDesc,
       media_url: realMediaUrl,
       video_url: videoUrl,

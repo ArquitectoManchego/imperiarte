@@ -41,7 +41,7 @@ export default function HomePage() {
   const [selectedMedia, setSelectedMedia] = useState(null);
   const [completedSale, setCompletedSale] = useState(null);
 
-  const categories = ["Todas", "Opalinas", "Ecológicos", "Arte & Edición", "Translúcidos", "Metalizados"];
+  const categories = ["Todas", "Opalinas", "Ecológicos", "Arte & Edición", "Translúcidos", "Metalizados", "Bastidores & Liencillos", "Pinceles & Herramientas", "Pinturas & Medios"];
 
   // Filter products
   const filteredProducts = products.filter(p => {
